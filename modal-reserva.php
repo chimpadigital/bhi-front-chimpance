@@ -21,17 +21,17 @@
                 <h3 class="text-secondary">2 adultos</h3>
                 <h3 class="text-secondary">3 niños</h3>
                 <h3 class="text-secondary">1 bebe</h3>
-                <a href="" class="text-dark">Ver datos</a>
+                <a href="tour-pasajeros.php" class="text-dark">Ver datos</a>
               </div>
               <div class="col-12 col-lg-6">
                 <h5>Butacas</h5>
                 <h3 class="text-secondary">13A - 13B - 13A - 13B - 13A - 13B - 13A - 13B - 13A - 13B - 13A - 13B</h3>
-                <a href="" class="text-dark">Ver reserva</a>
+                <a href="tour-detail.php" class="text-dark">Ver reserva</a>
               </div>
               <div class="col-12 col-lg-12 mt-4">
                 <h5>Hotel Antartida</h5>
                 <h3 class="text-secondary">4 Dobles - 1 Individual - 1 triple - 1 cuadruple</h3>
-                <a href="" class="text-dark">Ver reserva</a>
+                <a href="tour-detail.php" class="text-dark">Ver reserva</a>
               </div>
             </div>
             <p class="text-secondary text-center mt-5">
