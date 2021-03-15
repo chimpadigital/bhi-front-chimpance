@@ -162,5 +162,8 @@
     <?php include 'modal-login.php'; ?>
     <?php include 'modal-register.php'; ?>
     <?php include 'modal-recuperar.php'; ?>
+    <?php include 'modal-reserva.php'; ?>
+    <?php include 'modal-reserva-confirmada.php'; ?>
+    <?php include 'modal-register-pending.php'; ?>
 
 </html>

@@ -17,7 +17,9 @@
                     <input type="password" name="" class="w-100"></input>
                 </div>
                 <div class="form-control text-center mt-4">
+                  <a href="nueva-pass.php">
                     <button type="submit" class="align-self-center border-2 btn btn-lg btn-outline-primary btn-reservar rounded-pill text-center">Enviar link de Restauración</button>
+                  </a>
                 </div>
             </form>
           </div>
