@@ -70,7 +70,7 @@
                                 <img src="assets/images/body/icons/cama.svg" alt="">
                                 <p class="mb-0 ps-2">6 Noches</p>
                             </div>
-                            <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
+                            <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                                 <img src="assets/images/body/icons/cama.svg" alt="">
                                 <p class="mb-0 ps-2">6 Noches</p>
                             </div>
-                            <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
+                            <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                                 <img src="assets/images/body/icons/cama.svg" alt="">
                                 <p class="mb-0 ps-2">6 Noches</p>
                             </div>
-                            <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
+                            <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                                 <img src="assets/images/body/icons/cama.svg" alt="">
                                 <p class="mb-0 ps-2">6 Noches</p>
                             </div>
-                            <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
+                            <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                                 <img src="assets/images/body/icons/cama.svg" alt="">
                                 <p class="mb-0 ps-2">6 Noches</p>
                             </div>
-                            <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
+                            <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Reservar</a>
                         </div>
                     </div>
                 </div>
