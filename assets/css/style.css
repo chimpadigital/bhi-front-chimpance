@@ -521,7 +521,7 @@ form.login.pass input{background:white; border:0px solid var(--bs-primary);borde
   position: absolute;left: -2px;bottom: -6px;width: 100px;
 }
 
-
+input:focus, select:focus{outline: 0px;}
 
 
 .modal-link{font-weight: 600;color: inherit;}
