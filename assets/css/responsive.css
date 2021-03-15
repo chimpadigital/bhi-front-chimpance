@@ -68,16 +68,6 @@
         position: absolute;
         bottom: -27px;
     }
-    #excursion .margin-right-::before {
-        content: '';
-        height: 60px;
-        width: 97%;
-        background: #F8F8F8;
-        right: 12px;
-        position: absolute;
-        top: -27px;
-        z-index: -1;
-    }
     .margin-left- {
         padding-left: 13px;
     }

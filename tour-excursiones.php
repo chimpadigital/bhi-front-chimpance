@@ -72,15 +72,15 @@
                 </div>                
                 
             </div>
-            <div class="row">
-              <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative px-lg-0">
-                  <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
+            <div class="bg-grey mx-0 px-lg-0 radius-30 row">
+              <div class="col-lg-6 col-xl-6 col-xxl-6 position-relative px-0">
+                  <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100 d-flex justify-content-center">
                     <img src="assets/images/body/tours/excursion1.jpg" class="d-block w-100" alt="...">
-                    <h3 class="px-lg-4 position-absolute text-center text-white top-50 w-100">San Martín de Los Andes Camino de Los 7 Lagos Visitando Villa La Angostura</h3>
+                    <h3 class="px-lg-4 position-absolute text-center text-white top-50">San Martín de Los Andes Camino de Los 7 Lagos Visitando Villa La Angostura</h3>
                   </div>
               </div>  
               
-              <div class="col-xxl-6 col-xl-6 col-lg-6 margin-left-">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 ">
                   <div class="align-items-center bg-grey d-flex h-100 p-lg-4 p-3 radius-30">
                     <p class="">Recorrido con amplia variedad en paisajes que nos permitirá conocer Villa La Angostura, Ríos, 
                       Arroyos como así también los Lagos que conectan a San Carlos de Bariloche con la hermosa Cuidad de San Martín 
@@ -97,18 +97,18 @@
 
     <section class="mb-5">
         <div class="container">
-            <div class="row"> 
-              <div class="col-xxl-6 col-xl-6 col-lg-6 margin-right-">
+            <div class="bg-grey mx-0 px-lg-0 radius-30 row"> 
+              <div class="col-xxl-6 col-xl-6 col-lg-6 ">
                 <div class="align-items-center bg-grey d-flex h-100 p-lg-4 p-3 radius-30 order-last order-lg-first">
                   <p class="">Saldremos de San Martín de los Andes por la mañana. Al llegar a Junín de los Andes realizaremos un City Tour por la ciudad visitando los talleres de artesanos, locales mapuches y la iglesia reformada al estilo araucano, donde se rinde culto a la virgen de las Nieves (diseñada integrando la fe y las creencias mapuches y cristianas). Luego continuaremos la excursión hasta obtener una vista de los lagos Huechulafquen y Paimún con espectaculares miradores hacia la cordillera, donde encontraremos una inolvidable vista del Volcán Lanín y sus glaciares eternos.
                   </p>
                 </div>
               </div>  
 
-              <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative px-lg-0 order-first order-lg-last">
-                  <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
+              <div class="col-lg-6 col-xl-6 col-xxl-6 position-relative px-0 order-first order-lg-last">
+                  <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100 d-flex justify-content-center">
                     <img src="assets/images/body/tours/excursion2.jpg" class="d-block w-100" alt="...">
-                    <h3 class="px-lg-4 position-absolute text-center text-white top-50 w-100">Volcán Lanín</h3>
+                    <h3 class="px-lg-4 position-absolute text-center text-white top-50 ">Volcán Lanín</h3>
                   </div>
               </div>  
             </div>            
@@ -118,15 +118,15 @@
     <section class="mb-5">
       <div class="container">
         
-        <div class="row">
-            <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative px-lg-0">
-              <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
+        <div class="bg-grey mx-0 radius-30 row">
+            <div class="col-lg-6 col-xl-6 col-xxl-6 position-relative px-0">
+              <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100 d-flex justify-content-center">
                   <img src="assets/images/body/tours/excursion3.jpg" class="d-block w-100" alt="...">
-                  <h3 class="px-lg-4 position-absolute text-center text-white top-50 w-100">City Tour, Quila Quina y Mirador Arrayanes</h3>
+                  <h3 class="px-lg-4 position-absolute text-center text-white top-50 ">City Tour, Quila Quina y Mirador Arrayanes</h3>
                 </div>
               </div>  
               
-              <div class="col-xxl-6 col-xl-6 col-lg-6 margin-left-">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 ">
                 <div class="align-items-center bg-grey d-flex h-100 p-lg-4 p-3 radius-30">
                   <p class="">Saldremos del hotel recorriendo las arterias principales de la ciudad como son calle Villegas y av San Martín. Acompañados por nuestro guía de parque nacional Lanín visitaremos su muelle principal. Luego emprenderemos nuestro camino a el paraje quila quina, paraje que se encuentra dentro del parque. Atravesaremos comunidades mapuches visitando el Arroyo Grande, un hermoso salto de agua que se halla entre gigantescas rocas al que se puede acceder por una pasarela señalizada.
                   </p>
@@ -138,18 +138,18 @@
         
         <section class="mb-5">
             <div class="container">
-                <div class="row"> 
-                  <div class="col-xxl-6 col-xl-6 col-lg-6 margin-right-">
+                <div class="bg-grey mx-0 radius-30 row"> 
+                  <div class="col-xxl-6 col-xl-6 col-lg-6">
                     <div class="align-items-center bg-grey d-flex h-100 p-lg-4 p-3 radius-30 order-last order-lg-first">
                       <p class="">Saldremos de San Martín de los Andes, para tomar la ruta nacional No 234, pasando por la ciudad de Junín de los Andes, empalmando luego con la ruta provincial, la No 60, bordeando el río Malleo; y con el marco típico de estepa patagónica, comenzaremos a ingresar en un gran bosque de Pehuenes (araucarias araucanas), que se comparte entre el Parque Nacional Lanín y el Parque Nacional Villarrica de Chile. Llegaremos al cruce fronterizo, Paso Internacional Tromen o Mamuil Malal, luego de hacer los trámites migratorios en ambos puestos fronterizos, continuaremos viaje por una zona de paisajes, conformados por lagos, ríos e imponentes montañas.
                       </p>
                     </div>
                   </div>  
     
-                  <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative px-lg-0 order-first order-lg-last">
-                      <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
+                  <div class="col-lg-6 col-xl-6 col-xxl-6 position-relative px-0 order-first order-lg-last">
+                      <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100 d-flex justify-content-center">
                         <img src="assets/images/body/tours/excursion4.jpg" class="d-block w-100" alt="...">
-                        <h3 class="px-lg-4 position-absolute text-center text-white top-50 w-100">Pucón (Chile)</h3>
+                        <h3 class="px-lg-4 position-absolute text-center text-white top-50 ">Pucón (Chile)</h3>
                       </div>
                   </div>  
                 </div>            
