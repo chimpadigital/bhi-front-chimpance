@@ -1,0 +1,201 @@
+@media (min-width:300px){
+    .tours-price img {
+        right: 0px;
+        bottom: 0px;
+    }
+    .navbar.position-absolute{position: relative!important;background: rgb(16 16 62);padding-bottom: 0;}
+    .bg-home.bg-tour-details::before {
+        content: '';
+        background: url(../images/body/tours/tour-detail-left.svg);
+        width: 200px;
+        height: 180px;
+        position: absolute;
+        left: -10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+    }
+    .bg-home.bg-tour-details::after {
+        content: '';
+        background: url(../images/body/tours/tour-detail-right.svg);
+        width: 181px;
+        height: 180px;
+        position: absolute;
+        right: -4%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+    }
+
+    .hotel-title{position: relative;}
+    .margin-left-::before {
+        content: '';
+        height: 30px;
+        width: 94vw;
+        background: #F8F8F8;
+        left: 13px;
+        position: absolute;
+        top: -30px;
+    }
+    .margin-right-::before {
+        content: '';
+        height: 30px;
+        width: 94vw;
+        background: #F8F8F8;
+        right: 13px;
+        position: absolute;
+        top: -30px;
+    }
+    .margin-left- {
+        padding-left: 13px;
+    }
+    .buss {
+        position: relative;
+        width: 126px;
+        transform: rotate(90deg);
+        margin: auto;
+    }
+    .seat label {transform: rotate(-90deg);}
+    .planta-alta{height: 580px;}
+    .planta-baja{height: 250px;}
+    .carousel-item {
+        width: auto;
+        height: 100%;
+    }
+    .carousel-item img {
+        width: auto;
+        height: 103%;
+    }
+    .tours-height {
+        height: 52vh;
+      }
+    .tour-detail-content{padding: 40px 0;}
+    .tour-card{width: 100%;margin-left: 0px!important;margin-right: 0px!important;}
+    #cards{position: relative!important;
+        bottom: 150px!important;
+        padding: 30px 0 0 0;
+    }
+    .bg-home::before {
+        width: 70px;
+        height: 198px;
+        left: -3%;
+    }
+    .bg-home::after {
+        width: 56px;
+        height: 194px;
+        right: 3%;
+    }
+    .tours-home {
+        background-image: none;padding: 0px 0;
+    }
+    .nav-link{width: fit-content;}
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+    .menu-login{width: auto;}
+}
+@media (min-width:768px){
+    .margin-left-::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 79px;
+        background: #F8F8F8;
+        left: -38px;
+        top: 0px;
+        z-index: -1;
+    }
+    .margin-right-::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 60px;
+        background: #F8F8F8;
+        right: -30px;
+        top: 0px;
+        z-index: -1;
+    }
+    .tour-card{width: 47%;}
+    #cards{position: absolute!important;background-image:none;}
+}
+@media (min-width:990px){
+    .tours-price img {
+        right: 30px;
+        bottom: 30px;
+    }
+    .navbar.position-absolute{position: absolute!important;background:transparent;padding-bottom: 10px;}
+    .bg-home.bg-tour-details::before{
+        content: '';
+        background: url(../images/body/tours/tour-detail-left.svg);
+        width: 303px;
+        height: 250px;
+        position: absolute;
+        left: 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+      }
+      .bg-home.bg-tour-details::after{
+        content: '';
+        background: url(../images/body/tours/tour-detail-right.svg);
+        width: 286px;
+        height: 265px;
+        position: absolute;
+        right: 3%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+      }
+    .hotel-title{position: absolute;}
+    .planta-alta{height: auto;}
+    .planta-baja{height: auto;}
+    .buss {
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .seat label {transform: rotate(0deg);}
+    
+    .tours-height {
+        height: 52vh;
+      }
+    .tour-detail-content{padding: 80px 0;}
+    .menu-login{width: 100%;}
+    .navbar-nav .nav-link {
+        margin-bottom: 0px;
+    }
+    .bg-home::after {
+        width: 95px;
+        height: 300px;
+        right: 7%;
+    }
+    .bg-home::before {
+        width: 118px;
+        height: 305px;
+        left: 7%;
+    }
+    .tours-home {
+        background-image: url(../images/body/bg-home.svg);padding: 80px 0;
+    }
+    .tour-card{width: 32%;margin-left: 5px!important;margin-right: 5px!important;}
+    #cards{
+        bottom: -60px!important;
+    }
+}
+@media (min-width:1250px){
+    .margin-left- {
+        padding-left: 20px;
+    }
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+    .tours-height {
+        height: 55vh;
+      }
+}

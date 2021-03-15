@@ -1,0 +1,738 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Bold.eot');
+    src: local('Euclid Circular A Bold'), local('EuclidCircularA-Bold'),
+        url('../fonts/EuclidCircularA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-Bold.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-Bold.woff') format('woff'),
+        url('../fonts/EuclidCircularA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Light.eot');
+    src: local('Euclid Circular A Light'), local('EuclidCircularA-Light'),
+        url('../fonts/EuclidCircularA-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-Light.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-Light.woff') format('woff'),
+        url('../fonts/EuclidCircularA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-BoldItalic.eot');
+    src: local('Euclid Circular A Bold Italic'), local('EuclidCircularA-BoldItalic'),
+        url('../fonts/EuclidCircularA-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-BoldItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-BoldItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-LightItalic.eot');
+    src: local('Euclid Circular A Light Italic'), local('EuclidCircularA-LightItalic'),
+        url('../fonts/EuclidCircularA-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-LightItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-LightItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Regular.eot');
+    src: local('Euclid Circular A Regular'), local('EuclidCircularA-Regular'),
+        url('../fonts/EuclidCircularA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-Regular.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-Regular.woff') format('woff'),
+        url('../fonts/EuclidCircularA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-SemiBold.eot');
+    src: local('Euclid Circular A SemiBold'), local('EuclidCircularA-SemiBold'),
+        url('../fonts/EuclidCircularA-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-SemiBold.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-SemiBold.woff') format('woff'),
+        url('../fonts/EuclidCircularA-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Medium.eot');
+    src: local('Euclid Circular A Medium'), local('EuclidCircularA-Medium'),
+        url('../fonts/EuclidCircularA-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-Medium.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-Medium.woff') format('woff'),
+        url('../fonts/EuclidCircularA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Italic.eot');
+    src: local('Euclid Circular A Italic'), local('EuclidCircularA-Italic'),
+        url('../fonts/EuclidCircularA-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-Italic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-Italic.woff') format('woff'),
+        url('../fonts/EuclidCircularA-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-SemiBoldItalic.eot');
+    src: local('Euclid Circular A SemiBold Italic'), local('EuclidCircularA-SemiBoldItalic'),
+        url('../fonts/EuclidCircularA-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-MediumItalic.eot');
+    src: local('Euclid Circular A Medium Italic'), local('EuclidCircularA-MediumItalic'),
+        url('../fonts/EuclidCircularA-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA-MediumItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA-MediumItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Reboot */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.modal {
+  overflow-y:auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+    font-family: Euclid Circular A;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+  }
+  
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  
+  hr:not([size]) {
+    height: 1px;
+  }
+  
+  h6, h5, h4, h3, h2, h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  @media (min-width: 1200px) {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  @media (min-width: 1200px) {
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+/* General */
+.title-bg{
+    background: var(--bs-primary); color: white;    width: fit-content;
+    word-break: break-all;
+    padding: 15px 25px;
+    border-radius: 50px 50px 50px 0;
+}
+.vh-100{height: 100vh;}
+.z-index-top{z-index: 10000;}
+.z-index--top{z-index: 1000;}
+.z-index-top-{z-index: -1;}
+.radius-30{border-radius: 30px;}
+.top-50 {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+/* Navbar */
+.nav-logo{
+    height: 70px;
+}
+nav .btn-outline:hover{
+    background:white;
+    color: var(--bs-primary)!important;
+}
+
+.navbar{z-index: 2;}
+.navbar-light .navbar-toggler {
+  color: rgb(255 255 255);
+  border-color: rgb(255 255 255 / 0%);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/body/icons/menu.svg");
+}
+
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+.dropdown-menu {
+  border: 0px solid rgba(0, 0, 0, 0.15);
+}
+
+
+/* hero */
+.bg-hero{
+    position: absolute;
+    background-image: url(../images/body/banner.jpg);
+    z-index: 0;
+    right: 0;
+    width: 100%;
+}
+.bg-hero::before{
+  background: var(--bs-primary);height: 100%;content: '';width: 100%;position: absolute;z-index: -1;opacity: .4;
+}
+/* .bg-tour-detail{
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+} */
+.bg-tour-detail::before{
+    background: var(--bs-primary);height: 100%;content: '';width: 100%;position: absolute;z-index: 1;opacity: .4;
+}
+.tour-detail-title{z-index: 5;}
+.hero-height{
+    height: 100vh;
+}
+
+/* Cards */
+#cards{bottom: -60px;width: 100%;}
+.card{padding: 30px;box-shadow: 0 0 11px rgba(37, 37, 37, 0.377);transition: all .4s ease-in-out;border-radius: 25px 25px 25px 0;}
+
+.card.dark{background: #00008B;color: white;margin-bottom: 20px;}
+.card.dark:hover{background: white;color: var(--bs-primary);}
+.card.dark:hover .i__blue path{fill: var(--bs-primary);}
+
+.card.light{background: #ffffff;}
+.card.light:hover{background: var(--bs-primary);color: white;}
+.card.light:hover .i__white path{fill: white;}
+
+/* tours home */
+.tours-home{
+    background-size: contain;background-position: top center;background-repeat: no-repeat;
+}
+
+.tour-wrapper{background: white;border-radius: 30px;box-shadow: 0 0 11px rgb(0 0 0 / 13%);}
+
+.tour-card{display: flex;flex-direction: column;margin-bottom: 40px;margin-left: 5px;margin-right: 5px;z-index: 1;}
+
+.tour-img{border-radius: 30px; overflow: hidden;position: relative;}
+.tour-img img{z-index: 0;width: 100%;}
+
+.tour-destino{border-radius: 0 20px 0 0;
+    color: var(--bs-primary);
+    background: white;
+    width: fit-content;
+    padding: 7px 30px;
+    margin-top: -38px;z-index: 2;position: relative;}
+.tour-content{padding: 20px;display: flex;flex-direction: column; justify-content: center;}
+.btn-reservar{width: fit-content;}
+
+/* pre footer backgrounds */
+.bg-home{background: url(../images/body/bg-home-2.svg);background-size: cover;background-position: top center;padding: 180px 0 100px 0;background-repeat: no-repeat;position: relative;margin-top: -100px;    overflow: hidden;}
+.bg-home::before{
+  content: '';
+  background: url(../images/body/girl-home-1.svg);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.bg-home::after{
+  content: '';
+  background: url(../images/body/girl-home-2.svg);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+/* tours buscador */
+
+
+
+.filtro-tours{border-radius: 100px;
+  padding: 10px 21px;
+  height: 50px;
+  border: 2px solid var(--bs-primary);}
+
+  .bg-home.bg-tours::before{
+    content: '';
+    background: url(../images/body/tours/man1.svg);
+    width: 150px;
+    height: 340px;
+    position: absolute;
+    left: 7%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+  }
+  .bg-home.bg-tours::after{
+    content: '';
+    background: url(../images/body/tours/man2.svg);
+    width: 150px;
+    height: 340px;
+    position: absolute;
+    right: 7%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+  }
+
+/* footer */
+.footer{
+  background: url(../images/body/bg-footer.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;border-radius: 0 40px 0 0;
+  margin-top: -40px;
+  position: relative;
+}
+.social{
+  font-size: 25px;color: white;
+}
+.social i{
+  padding: 10px 12px;
+  border-radius: 50px;
+  transition: all .3s ease-in-out;
+}
+.social i:hover{
+  background:white;color: var(--bs-primary);
+}
+.social li{
+  padding-right: 10px;
+}
+.social li:last-child{
+  padding-right: 0px;
+}
+
+.footer li a{
+  color: white;text-decoration: none;
+}
+.footer li{
+  margin-bottom: 15px;
+}
+.footer i{
+  font-size: 20px;
+}
+
+/* Modales */
+.modal-dialog {
+  max-width: 700px;
+}
+.modal-close{
+  line-height: 1;
+  font-size: 20px;
+  background: var(--bs-primary);
+  padding: 8px 8px;
+  border-radius: 49px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* .modal-body{padding: 2rem 3rem;} */
+
+.modal-content{
+  border-radius: 20px 20px 20px 0;position: relative;
+}
+#login .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#login img{
+  position: absolute;right: 20px; bottom: 0px;
+}
+#recuperar img{
+  position: absolute;right: 20px; bottom: 0px;
+}
+#recuperar .modal-content{
+  background: url(../images/body/bg-home-2.svg) white;background-size: contain;border-radius: 20px 20px 20px 0;position: relative;background-position: bottom;background-repeat: no-repeat;
+}
+#register .modal-content{
+  background: url(../images/body/bg-recovery.svg) white;background-size: contain;
+  position: relative;
+  background-position: bottom;background-repeat: no-repeat;
+}
+#register .modal-content::before{
+  content: '';
+  width: 100%;
+  height: 200px;
+  background: url(../images/body/bg-create.svg);
+  background-size: cover;
+  position: absolute;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0; 
+}
+#register .modal-footer img{
+  position: absolute;right: 20px; bottom: 0px;
+}
+
+form.login .form-control{background:none; border:0px;margin-bottom: 15px;}
+form.login input{background:none; border:2px solid var(--bs-primary);border-radius: 40px;padding: 10px 14px;}
+form.login select.documento{background:none; border:2px solid var(--bs-primary);border-radius: 40px;padding: 10px 14px;}
+form.login.pass input{background:white; border:0px solid var(--bs-primary);border-radius: 40px;padding: 8px;}
+/* form.login input:focus{background:none; border:0px;border-radius: 40px;padding: 8px;} */
+/*To remove button from IE11, thank you Matt */
+
+#reservaok .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#reservaok .modal-footer img{
+  position: absolute;right: -2px;bottom: -6px;width: 170px;
+}
+#register-pending .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#register-pending .modal-footer img.right{
+  position: absolute;right: -2px;bottom: -6px;width: 55px;
+}
+#register-pending .modal-footer img.left{
+  position: absolute;left: -2px;bottom: -6px;width: 100px;
+}
+
+
+
+
+.modal-link{font-weight: 600;color: inherit;}
+
+.cod-pais{
+  position: absolute;left: 9px;bottom: 12px;
+    word-wrap: normal;
+    border: 0px;
+    background: transparent;
+}
+form.login input.tel{padding-left: 60px;}
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+.reserva-bg{
+  background: url(../images/body/reserva-modal-bg.svg);background-size: cover;background-position: bottom;background-repeat: no-repeat;background-color: white;
+}
+
+/* tours details */
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  background-clip: border-box;
+  border: 2px solid white;
+  /* border-top: none!important;
+  border-bottom: none!important; */
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 96px;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.carousel-indicators {
+  bottom: 17px;}
+.tour-detail-content{
+  background-size: contain;background-position: top center;background-repeat: no-repeat;background-image: url(../images/body/bg-tour.svg);
+}
+
+.info-tour p {
+  font-size: 20px;
+}
+
+.estrella-active{
+  fill: var(--bs-secondary);
+}
+.estrella-active-3{
+  fill: white;
+}
+
+.tours-price{border-radius: 38px 0 0 0;box-shadow: 0 0 10px rgb(0 0 0 / 17%);}
+
+.tours-pasajeros{border-radius: 38px 38px 38px 0;box-shadow: 0 0 10px rgb(0 0 0 / 17%);}
+.bg-grey{background: #F8F8F8;}
+.margin-left-{margin-left:0px;position: relative;}
+.margin-right-{margin-right:0px;position: relative;}
+
+
+.unchecked{width: 35px;height: 35px; border: 2px solid black;border-radius:50px;}
+.checked{width: 35px;height: 35px; border: 2px solid black;background: black;border-radius:50px;}
+
+.bg-home.bg-tour-details{
+  padding: 200px 0 150px 0px;
+}
+
+
+/* bus */
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.seats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.seat {
+  display: flex;
+  flex: 0 0 6.285714%;
+  padding: 5px;
+  position: relative;
+}
+.escalera {
+  margin-right: 12.4%;
+}
+.seat input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+}
+.seat input[type=checkbox]:checked + label {
+  color: white;
+  background: #000000;
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.seat input[type=checkbox].checked + label {
+  color: white;
+  background: #000000;
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.seat input[type=checkbox]:disabled + label {
+  background: #dddddd;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.seat input[type=checkbox]:disabled + label:after {
+  content: "X";
+  text-indent: 0;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.seat input[type=checkbox]:disabled + label:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.seat label {
+  display: block;
+  position: relative;
+  width: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4rem;
+  padding: 4px 0;
+  background: transparent;
+  border-radius: 27px;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  height: 35px;
+  border: 2px solid black;
+}
+.seat label:before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+.seat label:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 2px #5C6AFF;
+}
+
+/* tour itinerario */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: var(--bs-secondary);transition: all .3s ease-in;
+}
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
+  background-color: var(--bs-primary);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 50% 50%;
+  border-radius: 400px;
+}
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+  opacity: 1;width: 73px;
+}
+.carousel-control-next {
+  right: -25px;
+}
+.carousel-control-prev {
+  left: -25px;
+}
+
+.carousel-item img.excursion-icon{width: 30px;}
+.excursion-text h4, .excursion-text p{
+  margin-bottom: 0px;
+}
+
+/* Tour excursiones */
+
+.excursion-filter::before{
+  content: '';
+  position: absolute;
+  background: var(--bs-secondary);
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0;
+  border-radius: 38px 38px 38px 0;
+  opacity: .5;
+}
