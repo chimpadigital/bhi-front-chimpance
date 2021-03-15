@@ -1,8 +1,29 @@
 @media (min-width:300px){
+    .excursion-filter::before {
+        content: '';
+        position: absolute;
+        background: var(--bs-secondary);
+        width: 96%;
+        height: 100%;
+        left: 2%;
+        top: 0;
+        border-radius: 38px 38px 38px 0;
+        opacity: .5;
+    }
+    .itinerario .h-100 img {
+        height: auto!important;
+        width: 100%!important;
+    }
     .tours-price img {
         right: 0px;
         bottom: 0px;
     }
+    .carousel-control-next {
+        right: -6px;
+    }
+    .carousel-control-prev {
+        left: -6px;
+      }
     .navbar.position-absolute{position: relative!important;background: rgb(16 16 62);padding-bottom: 0;}
     .bg-home.bg-tour-details::before {
         content: '';
@@ -30,21 +51,32 @@
     .hotel-title{position: relative;}
     .margin-left-::before {
         content: '';
-        height: 30px;
-        width: 94vw;
+        height: 60px;
+        width: 96%;
         background: #F8F8F8;
-        left: 13px;
+        left: 12px;
         position: absolute;
         top: -30px;
+        z-index: -1;
     }
-    .margin-right-::before {
+    .itinerario .margin-right-::before {
         content: '';
-        height: 30px;
+        height: 60px;
         width: 94vw;
         background: #F8F8F8;
         right: 13px;
         position: absolute;
-        top: -30px;
+        bottom: -27px;
+    }
+    #excursion .margin-right-::before {
+        content: '';
+        height: 60px;
+        width: 97%;
+        background: #F8F8F8;
+        right: 12px;
+        position: absolute;
+        top: -27px;
+        z-index: -1;
     }
     .margin-left- {
         padding-left: 13px;
@@ -69,7 +101,7 @@
     .tours-height {
         height: 52vh;
       }
-    .tour-detail-content{padding: 40px 0;}
+    .tour-detail-content{padding: 80px 0;}
     .tour-card{width: 100%;margin-left: 0px!important;margin-right: 0px!important;}
     #cards{position: relative!important;
         bottom: 150px!important;
@@ -117,10 +149,29 @@
         top: 0px;
         z-index: -1;
     }
+    .itinerario .margin-right-::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 60px;
+        background: #F8F8F8;
+        right: -30px;
+        top: 0px;
+        z-index: -1;
+    }
     .tour-card{width: 47%;}
     #cards{position: absolute!important;background-image:none;}
 }
 @media (min-width:990px){
+    .itinerario .h-100 {
+        height: 100%!important;
+    }
+    .carousel-control-next {
+        right: -25px;
+    }
+    .carousel-control-prev {
+        left: -25px;
+    }
     .tours-price img {
         right: 30px;
         bottom: 30px;
@@ -184,6 +235,17 @@
     }
 }
 @media (min-width:1250px){
+    .excursion-filter::before{
+        content: '';
+        position: absolute;
+        background: var(--bs-secondary);
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0;
+        border-radius: 38px 38px 38px 0;
+        opacity: .5;
+      }
     .margin-left- {
         padding-left: 20px;
     }

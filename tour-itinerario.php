@@ -73,19 +73,23 @@
                 
             </div>
             <div class="row">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleControls" class="carousel slide itinerario" data-bs-ride="carousel">
+              <div class="carousel-indicators d-flex d-lg-none">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active border-primary" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="border-primary"></button>
+              </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active w-100">
                     <div class="row">
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative ">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 position-relative h-100">
                           <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
-                            <img src="assets/images/body/tours/itinerario1.jpg" class="d-block w-100" alt="...">
+                            <img src="assets/images/body/tours/itinerario1.jpg" class="d-block" alt="...">
   
                           </div>
                       </div>  
                       
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 margin-left-">
-                          <div class="pt-5 pb-4 pe-5 bg-grey h-100 radius-30">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 margin-left-">
+                          <div class="pt-lg-5 pt-3 pb-lg-4 pb-3 pe-lg-5 pe-3 ps-3 ps-lg-0 bg-grey h-100 radius-30">
                             <h3 class="text-secondary">PRIMER DÍA: </h3>
                             <p class="mb-5">Salida con destino a VILLA CARLOS PAZ.</p>
                             <h3 class="text-secondary">SEGUNDO DÍA: </h3>
@@ -100,19 +104,18 @@
                     </div>
                    
                   </div>
-
-                  <div class="carousel-item">
+                  <div class="carousel-item w-100">
                     <div class="row">
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 position-relative ">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 position-relative h-100">
                           <div class="bg-primary tours-pasajeros ps-0 overflow-hidden h-100">
-                            <img src="assets/images/body/tours/itinerario2.jpg" class="d-block w-100" alt="...">
+                            <img src="assets/images/body/tours/itinerario2.jpg" class="d-block" alt="...">
   
                           </div>
                       </div>  
                       
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 margin-left-">
-                          <div class="pt-5 pb-4 pe-5 bg-grey h-100 radius-30">
-                            <h3 class="text-secondary">QUINTO DÍA: </h3>
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 margin-left-">
+                          <div class="pt-lg-5 pt-3 pb-lg-4 pb-3 pe-lg-5 pe-3 ps-3 ps-lg-0 bg-grey h-100 radius-30">
+                          <h3 class="text-secondary">QUINTO DÍA: </h3>
                             <p class="mb-5">Desayuno. Almuerzo. Recomendamos excursión opcional de día entero a LA CUMBRECITA Y VILLA GENERAL BELGRANO. Cena.</p>
                             <h3 class="text-secondary">SEXTO DÍA: </h3>
                             <p class="mb-5">Desayuno. Check out 07:00 A.M. El horario de regreso será determinado por el coordinador y estará en función de cuestiones operativas.</p>
@@ -126,11 +129,11 @@
                   </div>
                  
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -141,7 +144,7 @@
     </section>
 
 
-    <section class="">
+    <section class="pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-1 col-xxl-2"></div>
@@ -151,13 +154,17 @@
                 
             </div>
             <div class="row">
-              <div id="carouselExampleControls2" class="carousel slide z-index--top" data-bs-ride="carousel">
+              <div id="carouselExampleControls2" class="carousel slide z-index--top itinerario" data-bs-ride="carousel">
+              <div class="carousel-indicators d-flex d-lg-none">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active border-primary" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="border-primary"></button>
+              </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active w-100">
                     <div class="row">
                       
-                      <div class="col-xxl-6 col-xl-6 pe-0 col-lg-6 margin-right-">
-                        <div class="pt-5 pb-4 ps-5 pe-4 bg-grey h-100 radius-30">
+                      <div class="col-xxl-6 col-xl-6 pe-lg-0 col-lg-6 col-12 margin-right-">
+                        <div class="pt-lg-5 pt-3 pb-lg-4 pb-3 pe-lg-5 pe-3 ps-3 ps-lg-5 bg-grey h-100 radius-30">
                           <div class="d-flex flex-row align-items-center mb-5 excursion-text">
                             <img src="assets/images/body/tours/excursion-icono.svg" class="excursion-icon me-3" alt="">
                             <div>
@@ -198,7 +205,7 @@
                          
                         </div>
                       </div>  
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 ps-0 position-relative ">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 ps-lg-0 position-relative ">
                           <div class="bg-primary tours-pasajeros overflow-hidden h-100">
                             <img src="assets/images/body/tours/itinerario3.jpg" class="d-block w-100" alt="...">
   
@@ -207,12 +214,11 @@
                     </div>
                    
                   </div>
-
-                  <div class="carousel-item">
+                  <div class="carousel-item w-100">
                     <div class="row">
                       
-                      <div class="col-xxl-6 col-xl-6 pe-0 col-lg-6 margin-right-">
-                        <div class="pt-5 pb-4 ps-5 pe-4 bg-grey h-100 radius-30">
+                      <div class="col-xxl-6 col-xl-6 pe-lg-0 col-lg-6 col-12 margin-right-">
+                        <div class="pt-lg-5 pt-3 pb-lg-4 pb-3 pe-lg-5 pe-3 ps-3 ps-lg-5 bg-grey h-100 radius-30">
                           <div class="d-flex flex-row align-items-center mb-5 excursion-text">
                             <img src="assets/images/body/tours/excursion-icono.svg" class="excursion-icon me-3" alt="">
                             <div>
@@ -253,7 +259,7 @@
                          
                         </div>
                       </div>  
-                      <div class="col-xxl-6 col-xl-6 col-lg-6 ps-0 position-relative ">
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 ps-lg-0 position-relative ">
                           <div class="bg-primary tours-pasajeros overflow-hidden h-100">
                             <img src="assets/images/body/tours/itinerario3.jpg" class="d-block w-100" alt="...">
   
@@ -262,15 +268,14 @@
                     </div>
                    
                   </div>
-
                 
                  
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"  data-bs-slide="prev">
+                <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls2"  data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"  data-bs-slide="next">
+                <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls2"  data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>

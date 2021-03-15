@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-xl-1 col-xxl-2"></div>
                 <div class="col-10">
-                    <h4 class="title-bg mt-4">Completar datos de Pasajeros</h4>
+                    <h4 class="title-bg mt-4">Datos de Pasajeros</h4>
                     <p class="mb-5">Ingresá los datos completos de cada pasajero.</p>
                 </div>
             </div>

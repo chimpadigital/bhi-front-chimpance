@@ -17,8 +17,8 @@
                     <input type="password" name="" class="w-100"></input>
                 </div>
                 <div class="form-control text-center mt-4">
-                  <a href="nueva-pass.php">
-                    <button type="submit" class="align-self-center border-2 btn btn-lg btn-outline-primary btn-reservar rounded-pill text-center">Enviar link de Restauración</button>
+                  <a href="nueva-pass.php" class="align-self-center border-2 btn btn-lg btn-outline-primary btn-reservar rounded-pill text-center">
+                    Enviar link de Restauración
                   </a>
                 </div>
             </form>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="modal-footer mb-5 border-0">
-        <img src="assets/images/body/bg-login-2.svg" alt="">
+        <img src="assets/images/body/bg-login-2.svg" class="d-none d-lg-block" alt="">
       
       </div>
     </div>

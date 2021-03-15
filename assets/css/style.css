@@ -228,6 +228,7 @@ body {
 .z-index-top{z-index: 10000;}
 .z-index--top{z-index: 1000;}
 .z-index-top-{z-index: -1;}
+
 .radius-30{border-radius: 30px;}
 .top-50 {
   top: 50% !important;
@@ -711,28 +712,18 @@ ol {
 .carousel-control-prev, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
   opacity: 1;width: 73px;
 }
-.carousel-control-next {
-  right: -25px;
-}
-.carousel-control-prev {
-  left: -25px;
-}
 
-.carousel-item img.excursion-icon{width: 30px;}
+.itinerario .carousel-indicators {
+  bottom: -50px;
+}
+.itinerario .carousel-indicators .active {
+  opacity: 1;
+  background-color: var(--bs-primary);
+}
+.carousel-item img.excursion-icon{width: 30px!important;}
 .excursion-text h4, .excursion-text p{
   margin-bottom: 0px;
 }
 
 /* Tour excursiones */
 
-.excursion-filter::before{
-  content: '';
-  position: absolute;
-  background: var(--bs-secondary);
-  width: 100%;
-  height: 100%;
-  left: 0%;
-  top: 0;
-  border-radius: 38px 38px 38px 0;
-  opacity: .5;
-}

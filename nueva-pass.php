@@ -18,7 +18,7 @@
 <?php include 'header.php'; ?>
     <!-- Hero -->
     <section class="hero-height">
-        <div class="bg-hero d-flex align-items-center">
+        <div class="bg-hero d-flex align-items-center hero-height">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2"></div>
