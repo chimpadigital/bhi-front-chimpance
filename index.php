@@ -219,7 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="" class="btn btn-lg rounded-pill btn-primary text-white text-center align-self-center">Ver todos los viajes</a>
+                    <a href="tours.php" class="btn btn-lg rounded-pill btn-primary text-white text-center align-self-center">Ver todos los viajes</a>
                 </div>
             </div>
         </div>
