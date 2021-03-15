@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="modal-footer border-0">
-        <img src="assets/images/body/reserva-ok-personas.svg" class="z-index-top-" alt="">
+        <img src="assets/images/body/reserva-ok-personas.svg" class="d-none d-lg-block" alt="">
       
       </div>
     </div>
