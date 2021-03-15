@@ -33,7 +33,7 @@
                                 <input type="password" name="" class="w-100"></input>
                             </div>
                             <div class="form-control text-center mt-4">
-                                <button type="submit" class="align-self-center border-2 btn btn-lg btn-secondary btn-reservar rounded-pill text-center">Modificar contraseña</button>
+                                <button type="submit" class="align-self-center border-2 btn btn-lg btn-secondary btn-reservar rounded-pill text-center">Buscar</button>
                             </div>
                         </form>
                         
@@ -47,7 +47,7 @@
     <section class="tours-home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-between pt-5 pb-5">
+                <div class="col-lg-12 d-flex justify-content-between flex-lg-row flex-column pt-5 pb-5">
                     <h4 class="title-bg">9 resultados encontrados</h4>
                     <select name="" class="filtro-tours" id="">
                         <option value="destino">Ordenar por destino</option>
