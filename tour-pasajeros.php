@@ -91,7 +91,7 @@
                                   <input type="text" name="" placeholder="Ingrese un número de teléfono válido" class="w-100"></input>
                                 </div>
                                 <div class="form-control">
-                                  <ph5class="mb-1">Correo Electrónico</h5>
+                                  <h5 class="mb-1">Correo Electrónico</h5>
                                   <input type="email" name="" placeholder="Ingrese un correo electrónico válido" class="w-100"></input>
                                 </div>
                               </div>
@@ -157,7 +157,7 @@
                                   <input type="text" name="" placeholder="Ingrese un número de teléfono válido" class="w-100"></input>
                                 </div>
                                 <div class="form-control">
-                                  <ph5class="mb-1">Correo Electrónico</h5>
+                                  <h5 class="mb-1">Correo Electrónico</h5>
                                   <input type="email" name="" placeholder="Ingrese un correo electrónico válido" class="w-100"></input>
                                 </div>
                               </div>

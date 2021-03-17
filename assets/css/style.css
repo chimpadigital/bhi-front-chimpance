@@ -235,6 +235,8 @@ body {
   transform: translateY(-50%);
 }
 
+.border-right-bottom-30{border-bottom-right-radius: 30px;}
+
 /* Navbar */
 .nav-logo{
     height: 70px;
@@ -379,6 +381,47 @@ nav .btn-outline:hover{
   bottom: 0;
 }
 
+.bg-home.bg-tours::before{
+  content: '';
+  background: url(../images/body/tours/man1.svg);
+  width: 150px;
+  height: 340px;
+  position: absolute;
+  left: 7%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.bg-home.bg-tours::after{
+  content: '';
+  background: url(../images/body/tours/man2.svg);
+  width: 150px;
+  height: 340px;
+  position: absolute;
+  right: 7%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.bg-home.admin-user::before{
+  content: '';
+  background: url(../images/body/reserva-ok-personas.svg);
+  width: 200px;
+  height: 295px;
+  position: absolute;
+  left: 3%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.bg-home.admin-user::after{
+  content: '';
+  background: none;
+}
+
 /* tours buscador */
 
 
@@ -388,28 +431,6 @@ nav .btn-outline:hover{
   height: 50px;
   border: 2px solid var(--bs-primary);}
 
-  .bg-home.bg-tours::before{
-    content: '';
-    background: url(../images/body/tours/man1.svg);
-    width: 150px;
-    height: 340px;
-    position: absolute;
-    left: 7%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    bottom: 0;
-  }
-  .bg-home.bg-tours::after{
-    content: '';
-    background: url(../images/body/tours/man2.svg);
-    width: 150px;
-    height: 340px;
-    position: absolute;
-    right: 7%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    bottom: 0;
-  }
 
 /* footer */
 .footer{
@@ -725,5 +746,37 @@ ol {
   margin-bottom: 0px;
 }
 
-/* Tour excursiones */
+/* Admin menu */
 
+.menu-admin{
+  color: var(--bs-primary);
+  background: #E4F4FF;
+  margin-bottom: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.menu-admin.active{
+  color: white;
+  background: var(--bs-primary);
+}
+.menu-admin.active svg .fondo{
+  fill:#fff; 
+}
+.menu-admin.active svg .icono{
+  fill:#00008b;  
+}
+
+.menu-admin svg{
+  width: 60px;  
+}
+
+.menu-admin:hover{
+  color: white;
+  background: var(--bs-primary);
+}
+.menu-admin:hover svg .fondo{
+  fill:#fff;  
+}
+.menu-admin:hover svg .icono{
+  fill:#00008b;  
+}

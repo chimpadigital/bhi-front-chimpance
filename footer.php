@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row border-bottom">
                 <div class="col-lg-3 text-center">
-                    <img src="assets/images/logo/logo.png" class="mb-3" alt="">
+                    <img src="/assets/images/logo/logo.png" class="mb-3" alt="">
                     <p class="text-center text-white">Seguinos en</p>
                     <ul class="d-flex justify-content-center list-unstyled social">
                         <li>
@@ -58,4 +58,4 @@
     </footer>
     </body>
 <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script> -->
-<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="/assets/js/bootstrap.bundle.js"></script>
