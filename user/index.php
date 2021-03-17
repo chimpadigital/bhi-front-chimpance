@@ -110,6 +110,6 @@
             </div>
         </div>
     </section>
-    <?php include '../footer-admin.php'; ?>
+    <?php include 'footer-admin.php'; ?>
 
 </html>
