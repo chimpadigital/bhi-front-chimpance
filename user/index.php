@@ -32,7 +32,7 @@
                     <div class="row mt-4">
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/5.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/5.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Mar del Plata</h5>
                                    
@@ -42,7 +42,7 @@
                         </div>
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/4.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/4.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Villa Carlos Paz</h5>
                                    
@@ -52,7 +52,7 @@
                         </div>
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/03.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/03.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Tierra del Fuego</h5>
                                    
@@ -65,7 +65,7 @@
                     <div class="row mt-4">
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/5.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/5.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Mar del Plata</h5>
                                    
@@ -75,7 +75,7 @@
                         </div>
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/4.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/4.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Villa Carlos Paz</h5>
                                    
@@ -85,7 +85,7 @@
                         </div>
                         <div class="tour-card">
                             <div class="tour-wrapper">
-                                <div class="tour-img"><img src="/assets/images/body/tours/03.jpg" class="img-fluid" alt=""></div>
+                                <div class="tour-img"><img src="../assets/images/body/tours/03.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Tierra del Fuego</h5>
                                    
@@ -110,12 +110,6 @@
             </div>
         </div>
     </section>
-    <?php include '../footer.php'; ?>
-    <?php include '../modal-login.php'; ?>
-    <?php include '../modal-register.php'; ?>
-    <?php include '../modal-recuperar.php'; ?>
-    <?php include '../modal-reserva.php'; ?>
-    <?php include '../modal-reserva-confirmada.php'; ?>
-    <?php include '../modal-register-pending.php'; ?>
+    <?php include '../footer-admin.php'; ?>
 
 </html>
