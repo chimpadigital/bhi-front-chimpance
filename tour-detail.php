@@ -529,7 +529,7 @@
             
             <div class="row d-flex">
                 <div class="col-xl-1 col-xxl-2"></div>
-                <div class="col-lg-4 z-index-top position-relative mb-3 mb-lg-0 ">
+                <div class="col-lg-4 z-index--top position-relative mb-3 mb-lg-0 ">
                     <div class="align-items-baseline flex-column flex-lg-row align-items-lg-center bg-primary d-flex h-100 pb-5 position-relative ps-0 tours-pasajeros">
                         <h4 class="align-items-center bg-white d-flex text-primary title-bg hotel-title top-0">Paso 3 - Hotel <img src="assets/images/body/tours/hotel-title.svg" class="ps-4" alt=""></h4>
                         <div class="ps-5 pt-3">
