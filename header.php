@@ -26,7 +26,7 @@
 <nav class="navbar navbar-expand-lg navbar-light text-white position-absolute w-100">
   <div class="container border-bottom px-0 py-lg-2 py-0">
     <a class="navbar-brand ms-3 ms-lg-0" href="index.php">
-        <img src="/assets/images/logo/logo.png" class="nav-logo" alt="">
+        <img src="assets/images/logo/logo.png" class="nav-logo" alt="">
     </a>
     <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
