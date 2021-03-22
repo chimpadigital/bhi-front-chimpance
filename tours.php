@@ -21,7 +21,7 @@
     <section class="tours-height">
         <div class="align-items-end bg-hero d-flex h-100 position-relative">
             <div class="container">
-                <div class="row mb-5">
+                <div class="row mb-4">
                     <div class="col-lg-3"></div>
                     <div class="col-lg-6">
                         <form action="" class="login pass mb-4">
