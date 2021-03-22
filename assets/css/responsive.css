@@ -199,7 +199,7 @@
     .seat label {transform: rotate(0deg);}
     
     .tours-height {
-        height: 52vh;
+        height: 500px;
       }
     .tour-detail-content{padding: 80px 0;}
     .menu-login{width: 100%;}
