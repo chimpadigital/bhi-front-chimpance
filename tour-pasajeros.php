@@ -96,6 +96,7 @@
                                   <input type="email" name="" placeholder="Ingrese un correo electrónico válido" class="w-100"></input>
                                 </div>
                               </div>
+                              
                               <div class="col-lg-6 col-12">
                                 <div class="form-control">
                                   <h5 class="mb-1">Tipo de Documento</h5>
