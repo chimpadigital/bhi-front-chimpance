@@ -25,19 +25,19 @@
                 <div class="col-12 mb-5">
                     <h3 class="text-primary">Hola, NOMBRE DEL USUARIO</h3>
                 </div>
-                <div class="col-lg-3 col-xxl-3">
+                <div class="col-lg-3 col-xxl-3 d-none d-md-block">
                     <?php include 'menu-admin.php'; ?>
                 </div>
                 <div class="col-lg-9 col-xxl-9 border-2 border-left border-primary border-start ps-lg-4 z-index--top">
                     <h4 class="title-bg">Tours reservados</h4>
-                    <div class="row mt-4">
+                    <div class="row mt-4 mb-4">
                         <div class="tour-card">
                             <div class="tour-wrapper">
                                 <div class="tour-img"><img src="../assets/images/body/tours/5.jpg" class="img-fluid" alt=""></div>
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Mar del Plata</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-detalle-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Villa Carlos Paz</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-detalle-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Tierra del Fuego</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-detalle-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Mar del Plata</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-reservado-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Villa Carlos Paz</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-reservado-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                 <div class="tour-content">
                                     <h5 class="mb-3 mt-3 text-center">Tierra del Fuego</h5>
                                    
-                                    <a href="tour-detail.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
+                                    <a href="tour-reservado-admin.php" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver info</a>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,11 @@
 @media (min-width:300px){
+    .modificar-contraseña{font-size: 1.25em!important;}
+    /* .btn-lg, .btn-group-lg > .btn {
+        padding: 0.5rem 1rem;
+        font-size:0.8rem;
+        border-radius: 0.3rem;
+    } */
+    .border-2{border-width: 0px !important;}
     .excursion-filter::before {
         content: '';
         position: absolute;
@@ -119,6 +126,11 @@
     .menu-login{width: auto;}
 }
 @media (min-width:768px){
+    .btn-lg, .btn-group-lg > .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: 0.3rem;
+    }
     .margin-left-::before {
         content: '';
         position: absolute;
@@ -153,6 +165,7 @@
     #cards{position: absolute!important;background-image:none;}
 }
 @media (min-width:990px){
+    .border-2{border-width: 2px !important;}
     .itinerario .h-100 {
         height: 100%!important;
     }
