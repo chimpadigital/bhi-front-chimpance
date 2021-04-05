@@ -21,19 +21,19 @@
 
 <section class="pt-md-5">
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12 mb-5">
+            <div class="row mb-4 mt-4">
+                <div class="col-12 mb-3 mb-lg-5">
                     <a href="javascript:history.back()" class="mb-4 d-flex flex-row align-items-center text-decoration-none">
                         <img src="../assets/images/body/icons/volver.svg" class="pe-2" alt="">
                         <h4 class="text-primary mb-0"> Volver</h4>
                     </a>
                 </div>
                 
-                <div class="col-lg-8 col-xxl-8 z-index--top">
+                <div class="col-lg-8 col-xxl-8 col-4 z-index--top">
                     <h3 class="mb-2">Itinerario</h3>  
                 </div>
-                <div class="col-lg-4 col-xxl-4 z-index--top d-flex justify-content-md-end justify-content-center">
-                    <a href="" data-bs-toggle="modal" data-bs-target="#pasajero" class="btn btn-lg btn-primary rounded-pill text-center btn-reservar align-self-center mt-lg-0 mt-4">Guardar Cambios</a>                    
+                <div class="col-lg-4 col-xxl-4 col-8 z-index--top d-flex justify-content-md-end justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#pasajero" class="btn btn-lg btn-primary rounded-pill text-center btn-reservar align-self-center mt-lg-0 mt-0">Guardar Cambios</a>                    
                     
                 </div>
                 
@@ -42,7 +42,7 @@
                 <div class="col-12">
                     <form action="" class="login">
                         <div class="row mb-5 bg-grey br-30-10 py-4 px-4 shadow-sm">
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 mb-3">
                                 <h3 class="text-secondary">Día</h3>
                                 <div class="pt-2">
                                     <input type="text" name="día" class="w-100" value="Primer Día"></input>
@@ -57,7 +57,7 @@
                         </div>
                         
                         <div class="row mb-4 bg-grey br-30-10 py-4 px-4 shadow-sm">
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 mb-3">
                                 <h3 class="text-secondary">Día</h3>
                                 <div class="pt-2">
                                     <input type="text" name="día" class="w-100" value="Primer Día"></input>
