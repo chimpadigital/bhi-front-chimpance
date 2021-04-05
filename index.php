@@ -52,11 +52,11 @@
                         </svg>
                         <!-- title -->
                         <h3 class=" pt-3">
-                            Experiencia Original
+                            Bienvenido al Sistema de Reservas
                         </h3>
                 
                         <p class="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Un sistema seguro y confiable, que optimizará tu proceso de reserva de viajes y tours. Todo lo que tu agencia necesita, pero mucho más simple.
                         </p>
                     </div>
                 </div>
@@ -101,12 +101,12 @@
                             </g>
                         </svg>
                         <!-- title -->
-                        <h3 class=" pt-3">
-                            Experiencia Original
+                        <h3 class="text-primary pt-3">
+                            Los beneficios
                         </h3>
                 
-                        <p class="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p class="text-primary">
+                            El sistema está ideado para tener un fácil acceso a los diferentes viajes, vas a poder consultar fechas y destinos, ver disponibilidad, reservar el viaje, elegir butacas y cargar los datos del pasajero.
                         </p>
                     </div>
                 </div class="col-lg-2">

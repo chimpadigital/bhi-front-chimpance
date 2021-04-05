@@ -230,6 +230,7 @@ body {
 .z-index-top-{z-index: -1;}
 
 .radius-30{border-radius: 30px;}
+.radius-10{border-radius: 10px;}
 .top-50 {
   top: 50% !important;
   transform: translateY(-50%);
@@ -407,10 +408,7 @@ nav .btn-outline:hover{
 .bg-home.admin-user::before{
   content: '';
   background: url(../images/body/reserva-ok-personas.svg);
-  width: 200px;
-  height: 295px;
   position: absolute;
-  left: 3%;
   background-size: contain;
   background-repeat: no-repeat;
   bottom: 0;
@@ -516,6 +514,22 @@ nav .btn-outline:hover{
   background-repeat: no-repeat;
   z-index: 0; 
 }
+#register-nueva .modal-content{
+  background: url(../images/body/bg-recovery.svg) white;background-size: contain;
+  position: relative;
+  background-position: bottom;background-repeat: no-repeat;
+}
+#register-nueva .modal-content::before{
+  content: '';
+  width: 100%;
+  height: 200px;
+  background: url(../images/body/bg-create.svg);
+  background-size: cover;
+  position: absolute;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0; 
+}
 #edit .modal-content{
   background: url(../images/body/bg-recovery.svg) white;background-size: contain;
   position: relative;
@@ -558,6 +572,34 @@ nav .btn-outline:hover{
 #pasajero .modal-footer img{
   position: absolute;right: 20px; bottom: 0px;width: 150px;
 }
+#pasajero-confirmado .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#pasajero-confirmado .modal-footer img{
+  position: absolute;right: 20px; bottom: 0px;width: 150px;
+}
+
+#agencia-confirmado .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#agencia-confirmado .modal-footer img{
+  position: absolute;right: 20px; bottom: 0px;width: 150px;
+}
+
+#agencia-eliminada .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#agencia-eliminada .modal-footer img{
+  position: absolute;right: 20px; bottom: 0px;width: 150px;
+}
+
+#tour-cancelado .modal-content{
+  background: url(../images/body/bg-login.svg) white;background-size: cover;
+}
+#tour-cancelado .modal-footer img{
+  position: absolute;right: 20px; bottom: 0px;width: 150px;
+}
+
 #planilla .modal-content{
   background: url(../images/body/bg-login.svg) white;background-size: cover;
 }
@@ -568,9 +610,9 @@ nav .btn-outline:hover{
   position: absolute;right: 20px; bottom: 0px;
 }
 
-form.login .form-control{background:none; border:0px;margin-bottom: 15px;}
+form.login .form-control{background:none; border:0px;margin-bottom: 15px; padding: 0.3rem 0rem;}
 form.login input, form.login textarea{background:none; border:2px solid var(--bs-primary);border-radius: 40px;padding: 10px 14px;}
-form.login textarea{height: 150px;}
+form.login textarea{height: 150px;border-radius: 25px;}
 form.login input.adjuntar {
   width: 0.1px;
   height: 0.1px;
@@ -815,8 +857,6 @@ ol {
 /* Admin menu */
 
 .menu-admin{
-  color: var(--bs-primary);
-  background: #E4F4FF;
   margin-bottom: 30px;
   transition: all .2s ease-in-out;
 }
@@ -833,7 +873,10 @@ ol {
 }
 
 .menu-admin svg{
-  width: 60px;  
+  width: 20%;  
+}
+.menu-admin h5{
+  width: 80%;  
 }
 
 .menu-admin:hover{
@@ -858,7 +901,6 @@ ol {
   border: 2px solid var(--bs-primary);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  padding: 10px 30px;
   font-size: 20px;
   color: var(--bs-primary);
   font-weight: 600;
@@ -889,3 +931,42 @@ form.login input[type=search] {
   top: 10px;
 }
 .pasajero-admin{border-radius: 30px 30px 30px 0;}
+
+/* Super admin */
+.cards-dashboard{
+  background: var(--bs-light);
+  position: relative;
+  border-radius: 30px 30px 30px 0;
+  box-shadow: 0 0 13px -5px rgb(0 0 0 / 20%);
+}
+.number{
+  border-radius: 100px;
+    border: 10px solid var(--bs-secondary);
+    width: 110px;
+    height: 110px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotate{
+  transform: rotate(180deg);
+}
+
+.img-tour {
+  width: 200px;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  
+}
+.noches-admin{width: 80px;}
+
+/* Itinerario */
+
+.br-30-10{border-radius: 25px 25px 25px 0px;}
+
+
+/* Excursiones */
+.cargar-imagen{    right: 30px;
+  top: 20px;}
