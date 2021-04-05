@@ -21,23 +21,24 @@
 
 <section class="pt-md-5">
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12 mb-5">
+            <div class="row mb-4 mt-4">
+                <div class="col-12 mb-3 mb-lg-5">
                     <a href="javascript:history.back()" class="mb-4 d-flex flex-row align-items-center text-decoration-none">
                         <img src="../assets/images/body/icons/volver.svg" class="pe-2" alt="">
                         <h4 class="text-primary mb-0"> Volver</h4>
                     </a>
                 </div>
                 
-                <div class="col-lg-8 col-xxl-8 z-index--top">
+                <div class="col-lg-8 col-xxl-8 col-4 z-index--top">
                     <h3 class="mb-2">Excursiones</h3>  
                 </div>
-                <div class="col-lg-4 col-xxl-4 z-index--top d-flex justify-content-md-end justify-content-center">
-                    <a href="" data-bs-toggle="modal" data-bs-target="#pasajero" class="btn btn-lg btn-primary rounded-pill text-center btn-reservar align-self-center mt-lg-0 mt-4">Guardar Cambios</a>                    
+                <div class="col-lg-4 col-xxl-4 col-8 z-index--top d-flex justify-content-md-end justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#pasajero" class="btn btn-lg btn-primary rounded-pill text-center btn-reservar align-self-center mt-lg-0 mt-0">Guardar Cambios</a>                    
                     
                 </div>
                 
             </div>
+            
             <div class="row">
                 <div class="col-12 col-md-8">
                     <form action="" class="login">
