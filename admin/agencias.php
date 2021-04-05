@@ -24,8 +24,8 @@
             <div class="row">
                 <div class="align-items-center col-12 d-flex justify-content-between flex-md-row flex-column mb-5">
                     <h3 class="text-primary mb-0">Hola, BHI</h3>
-                    <div>
-                        <a href="agencias-solicitudes-pendientes.php" class="me-3 btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Solicitudes pendientes</a>
+                    <div class="d-flex flex-column flex-md-row">
+                        <a href="agencias-solicitudes-pendientes.php" class="me-md-3 btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Solicitudes pendientes</a>
                         <a href="" data-bs-toggle="modal" data-bs-target="#register-nueva" class="btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Nueva agencia +</a>
                     </div>
                 </div>

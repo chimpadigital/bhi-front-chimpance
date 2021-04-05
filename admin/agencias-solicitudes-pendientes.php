@@ -24,8 +24,8 @@
             <div class="row">
                 <div class="align-items-center col-12 d-flex justify-content-between flex-md-row flex-column mb-5">
                     <h3 class="text-primary mb-0">Hola, BHI</h3>
-                    <div>
-                        <a href="agencias-solicitudes-pendientes.php" class="me-3 btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Solicitudes pendientes</a>
+                    <div class="d-flex flex-column flex-md-row">
+                        <a href="agencias-solicitudes-pendientes.php" class="me-md-3 btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Solicitudes pendientes</a>
                         <a href="" data-bs-toggle="modal" data-bs-target="#register-nueva" class="btn btn-lg rounded-pill btn-outline-secondary border-2 text-center btn-reservar align-self-center mt-lg-0 mt-4">Nueva agencia +</a>
                     </div>
                 </div>
@@ -100,10 +100,15 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="pe-3" width="50" height="50" viewBox="0 0 40 40"><g transform="translate(-120 -306)"><path d="M20,0h0A20,20,0,0,1,40,20v0A20,20,0,0,1,20,40H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(120 306)" class="fondo" fill="#00008b"/><path d="M16.789,16.789a5.394,5.394,0,1,0-5.394-5.394A5.393,5.393,0,0,0,16.789,16.789Zm0,2.7C13.188,19.486,6,21.293,6,24.88v2.7H27.577v-2.7C27.577,21.293,20.389,19.486,16.789,19.486Z" transform="translate(123.211 309.211)" class="icono" fill="#fff"/></g></svg>
                                 <h5 class="mb-0 text-center">Agencia 1</h5>
                             </div>
-                            <div>
-                                <a href="agencia-detalle.php" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
+                            <div class="mt-4 mt-lg-0 d-flex">
+                                <a href="agencia-detalle.php" class="me-2 mb-0 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
+                                
+                                
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class=" d-md-none me-2 mb-0 mb-lg-0 text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/aceptar-agencia.svg" alt=""></a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class=" d-md-none text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/cancelar-agencia.svg" alt=""></a>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="d-none d-md-flex me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="d-none d-md-flex btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
                             </div>
                         </div>
                         <div class="pasajero-admin bg-light d-md-flex flex-wrap flex-lg-row align-items-center justify-content-between p-3 mb-3">
@@ -111,10 +116,15 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="pe-3" width="50" height="50" viewBox="0 0 40 40"><g transform="translate(-120 -306)"><path d="M20,0h0A20,20,0,0,1,40,20v0A20,20,0,0,1,20,40H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(120 306)" class="fondo" fill="#00008b"/><path d="M16.789,16.789a5.394,5.394,0,1,0-5.394-5.394A5.393,5.393,0,0,0,16.789,16.789Zm0,2.7C13.188,19.486,6,21.293,6,24.88v2.7H27.577v-2.7C27.577,21.293,20.389,19.486,16.789,19.486Z" transform="translate(123.211 309.211)" class="icono" fill="#fff"/></g></svg>
                                 <h5 class="mb-0 text-center">Agencia 2</h5>
                             </div>
-                            <div>
-                                <a href="agencia-detalle.php" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
+                            <div class="mt-4 mt-lg-0 d-flex">
+                                <a href="agencia-detalle.php" class="me-2 mb-0 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
+                                
+                                
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class=" d-md-none me-2 mb-0 mb-lg-0 text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/aceptar-agencia.svg" alt=""></a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class=" d-md-none text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/cancelar-agencia.svg" alt=""></a>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="d-none d-md-flex me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="d-none d-md-flex btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
                             </div>
                         </div>
                         <div class="pasajero-admin bg-light d-md-flex flex-wrap flex-lg-row align-items-center justify-content-between p-3 mb-3">
@@ -122,10 +132,15 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="pe-3" width="50" height="50" viewBox="0 0 40 40"><g transform="translate(-120 -306)"><path d="M20,0h0A20,20,0,0,1,40,20v0A20,20,0,0,1,20,40H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(120 306)" class="fondo" fill="#00008b"/><path d="M16.789,16.789a5.394,5.394,0,1,0-5.394-5.394A5.393,5.393,0,0,0,16.789,16.789Zm0,2.7C13.188,19.486,6,21.293,6,24.88v2.7H27.577v-2.7C27.577,21.293,20.389,19.486,16.789,19.486Z" transform="translate(123.211 309.211)" class="icono" fill="#fff"/></g></svg>
                                 <h5 class="mb-0 text-center">Agencia 3</h5>
                             </div>
-                            <div>
-                                <a href="agencia-detalle.php" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
+                            <div class="mt-4 mt-lg-0 d-flex">
+                                <a href="agencia-detalle.php" class="me-2 mb-0 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
+                                
+                                
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class=" d-md-none me-2 mb-0 mb-lg-0 text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/aceptar-agencia.svg" alt=""></a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class=" d-md-none text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/cancelar-agencia.svg" alt=""></a>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="d-none d-md-flex me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="d-none d-md-flex btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
                             </div>
                         </div>
                         <div class="pasajero-admin bg-light d-md-flex flex-wrap flex-lg-row align-items-center justify-content-between p-3 mb-3">
@@ -133,10 +148,15 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="pe-3" width="50" height="50" viewBox="0 0 40 40"><g transform="translate(-120 -306)"><path d="M20,0h0A20,20,0,0,1,40,20v0A20,20,0,0,1,20,40H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(120 306)" class="fondo" fill="#00008b"/><path d="M16.789,16.789a5.394,5.394,0,1,0-5.394-5.394A5.393,5.393,0,0,0,16.789,16.789Zm0,2.7C13.188,19.486,6,21.293,6,24.88v2.7H27.577v-2.7C27.577,21.293,20.389,19.486,16.789,19.486Z" transform="translate(123.211 309.211)" class="icono" fill="#fff"/></g></svg>
                                 <h5 class="mb-0 text-center">Agencia 4</h5>
                             </div>
-                            <div>
-                                <a href="agencia-detalle.php" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
-                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
+                            <div class="mt-4 mt-lg-0 d-flex">
+                                <a href="agencia-detalle.php" class="me-2 mb-0 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Ver perfil</a>
+                                
+                                
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class=" d-md-none me-2 mb-0 mb-lg-0 text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/aceptar-agencia.svg" alt=""></a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class=" d-md-none text-white text-center btn-reservar align-self-center"><img src="../assets/images/body/icons/cancelar-agencia.svg" alt=""></a>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-confirmado" class="d-none d-md-flex me-2 mb-3 mb-lg-0 btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Aprobar</a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#agencia-eliminada" class="d-none d-md-flex btn btn-lg rounded-pill btn-primary text-white text-center btn-reservar align-self-center">Dar de baja</a>
                             </div>
                         </div>
                         
