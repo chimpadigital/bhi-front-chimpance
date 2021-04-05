@@ -715,7 +715,7 @@ input[type="radio"] {
 
 .tours-price{border-radius: 38px 0 0 0;box-shadow: 0 0 10px rgb(0 0 0 / 17%);}
 
-.tours-pasajeros{border-radius: 38px 38px 38px 0;box-shadow: 0 0 10px rgb(0 0 0 / 17%);}
+.tours-pasajeros{border-radius: 38px 38px 38px 0;}
 .bg-grey{background: #F8F8F8;}
 .margin-left-{margin-left:0px;position: relative;}
 .margin-right-{margin-right:0px;position: relative;}
