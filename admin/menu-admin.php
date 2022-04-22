@@ -29,4 +29,10 @@
             <h5 class="mb-0 ps-3">Agencias</h5>
         </a>
     </li>
+    <li>
+        <a href="pasajeros.php" class="tours-pasajeros d-flex flex-row p-3 align-items-center text-decoration-none menu-admin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path id="Rectángulo_334" data-name="Rectángulo 334" d="M20,0h0A20,20,0,0,1,40,20v0A20,20,0,0,1,20,40H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" class="fondo" fill="#00008b"/><path id="Icon_material-person" data-name="Icon material-person" d="M18.5,18.5a6.25,6.25,0,1,0-6.25-6.25A6.248,6.248,0,0,0,18.5,18.5Zm0,3.125c-4.172,0-12.5,2.094-12.5,6.25V31H31V27.875C31,23.719,22.672,21.625,18.5,21.625Z" transform="translate(1 2)" class="icono" fill="#fff"/></svg>
+            <h5 class="mb-0 ps-3">Pasajeros</h5>
+        </a>
+    </li>
 </ul>

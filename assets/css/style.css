@@ -968,5 +968,175 @@ form.login input[type=search] {
 
 
 /* Excursiones */
-.cargar-imagen{    right: 30px;
-  top: 20px;}
+.cargar-imagen{
+  right: 30px;
+  top: 20px;
+}
+
+.input-icon {
+  left: 20px;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus, .form-check-input:focus {
+  box-shadow: none;
+}
+
+.dropdown-custom span, .contador-pasajeros span {
+  color: rgba(228, 244, 255, .77);
+}
+
+.dropdown-custom .dropdown-menu {
+  padding: 0;
+  border-radius: 50px;
+}
+
+.dropdown-custom .dropdown-item {
+  border-radius: 50px;
+  background: #CBEAFF;
+}
+
+.contador-pasajeros {
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #00008B;
+}
+
+.btn-outline-file {
+  display: flex;
+  color: #00008B;
+  align-items: center;
+  border: 2px solid #00008B;
+}
+
+.btn-outline-file:hover {
+  color: #00008B;
+}
+
+.form-pasajeros .form-check-input {
+  padding: 0;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #999999;
+}
+
+.form-pasajeros .form-check-input:hover {
+  border: 2px solid #999999;
+}
+
+.form-pasajeros .form-check-label {
+  color: #999999;
+}
+
+.form-pasajeros .form-check-input:checked {
+  background-color: #00008B;
+}
+
+.form-pasajeros .date {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.form-pasajeros input[type="date"]::-webkit-calendar-picker-indicator {
+  left: 20px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  background-image: url(../images/body/icons/icon-calendario.svg);
+}
+
+.custom-table td.fit, 
+.custom-table th.fit {
+    white-space: nowrap;
+}
+
+.custom-table thead th {
+  color: #fff;
+  background: #00008B;
+}
+
+.custom-table thead th {
+  padding: 10px 20px;
+  border-right: 1px solid #fff;
+}
+
+.custom-table thead th:first-child {
+  border-radius: 100px 0 0 100px;
+}
+
+.custom-table thead th:last-child {
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+.custom-table .table > :not(:last-child) > :last-child > * {border: none !important;}
+.custom-table tbody td {
+  background: #CBEAFF;
+}
+
+.custom-table tbody td {
+  padding: 10px 20px;
+}
+
+.custom-table tbody td:first-child {
+  border-radius: 25px 0 0 0;
+}
+
+.custom-table tbody td:last-child {
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing:0 20px;
+}
+.table-responsive {
+  width: calc(100% - 50px);
+}
+.page-item:not(:first-child) .page-link {
+  margin: 0;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  background: none;
+  font-weight: 700;
+}
+.page-item:first-child .page-link {
+  transform: rotate(180deg);
+}
+.page-item:first-child .page-link, .page-item:last-child .page-link {
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  background: #00008B;
+  border: 2px solid #00008B;
+}
+
+.page-item:first-child .page-link:hover, .page-item:last-child .page-link:hover {
+  background: none;
+  border: 2px solid #00008B;
+}
+
+.page-item:first-child .page-link:hover svg line, .page-item:last-child .page-link:hover svg line {
+  stroke: #00008B;
+}
+
+.edit {
+  right: 0;
+  height: 48px;
+  position: absolute;
+}
+
+.edit a:hover svg path {
+  fill: #000;
+}
+
+.edit-th {
+  right: 0;
+  height: 44px;
+  position: absolute;
+  padding: 0 26px !important;
+}
+
+

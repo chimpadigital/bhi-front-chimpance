@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.479" height="16.008" viewBox="0 0 14.479 16.008">
+  <g id="Calendario" transform="translate(-814 -491.5)">
+    <g id="Rectángulo_444" data-name="Rectángulo 444" transform="translate(814 497.287)" fill="#fff" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="14.478" height="10.22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13.478" height="9.22" fill="none"/>
+    </g>
+    <g id="Rectángulo_445" data-name="Rectángulo 445" transform="translate(814 493.88)" fill="#999" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="14.478" height="5.11" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13.478" height="4.11" fill="none"/>
+    </g>
+    <path id="Trazado_822" data-name="Trazado 822" d="M-3447.838,6029.2v2.2" transform="translate(4265.217 -5537.202)" fill="#999" stroke="#999" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_823" data-name="Trazado 823" d="M-3438.773,6029.2v2.2" transform="translate(4263.873 -5537.202)" fill="#999" stroke="#999" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>
