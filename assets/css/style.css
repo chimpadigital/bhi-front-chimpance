@@ -1012,6 +1012,7 @@ form.login input[type=search] {
 
 .btn-outline-file:hover {
   color: #00008B;
+  background: #CBEAFF;
 }
 
 .form-pasajeros .form-check-input {
