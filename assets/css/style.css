@@ -998,8 +998,8 @@ form.login input[type=search] {
 .contador-pasajeros {
   color: #fff;
   padding: 8px 12px;
+  width: fit-content;
   border-radius: 50px;
-  display: inline-block;
   background: #00008B;
 }
 
@@ -1139,4 +1139,12 @@ form.login input[type=search] {
   padding: 0 26px !important;
 }
 
+.form-pasajeros-edit .form-control:disabled, .form-control[readonly] {
+  background: #E4F4FF;
+  border-color: #E4F4FF !important;
+}
 
+.form-pasajeros-edit label {
+  font-size: 18px;
+  font-weight: 600;
+}

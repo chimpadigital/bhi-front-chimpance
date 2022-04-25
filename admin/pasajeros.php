@@ -149,8 +149,6 @@
                                 <div class="form-control p-0 position-relative d-flex align-items-center">
                                     <input type="date" class="w-100 border-secondary date ps-5"
                                         placeholder="Fecha de viaje">
-                                    <!-- <img src="../assets/images/body/icons/icon-fecha.svg"
-                                        class="position-absolute search-icon" width="40px"> -->
                                 </div>
                             </div>
                             <div class="col-12 mt-4">
@@ -175,7 +173,7 @@
                             </div>
                         </div>
                     </form>
-                    <div class="col-12 mt-5 d-flex justify-content-center justify-content-md-start">
+                    <div class="col-12 mt-5 d-flex flex-column flex-md-row align-items-center justify-content-md-start">
                         <div class="dropdown dropdown-custom">
                             <button class="btn btn-primary rounded-pill dropdown-toggle" type="button"
                                 id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -185,7 +183,7 @@
                                 <li><a class="dropdown-item" href="#">Ordenar por: Z | A</a></li>
                             </ul>
                         </div>
-                        <p class="contador-pasajeros ms-2 mb-0">Total de Pasajeros: <span class="ms-2">28</span></p>
+                        <p class="contador-pasajeros ms-0 ms-md-2 mt-2 mt-md-0 mb-0">Total de Pasajeros: <span class="ms-2">28</span></p>
                     </div>
                     <div class="col-12 mt-md-0 mt-3 d-flex justify-content-center justify-content-md-end">
                         <button class="btn btn-outline-file rounded-pill me-2" type="button">
@@ -234,7 +232,7 @@
                                         <td class="fit">-</td>
                                         <td class="fit">@$50.000</td>
                                         <td class="edit">
-                                            <a href="#">
+                                            <a href="pasajeros-detalles.php">
                                                 <svg id="Icon_awesome-edit" data-name="Icon awesome-edit" xmlns="http://www.w3.org/2000/svg" width="19.598" height="17.417" viewBox="0 0 19.598 17.417">     
                                                     <path id="Icon_awesome-edit-2" data-name="Icon awesome-edit" d="M13.7,2.834,16.767,5.9a.333.333,0,0,1,0,.47L9.336,13.8l-3.157.35a.662.662,0,0,1-.732-.732l.35-3.157,7.431-7.431A.333.333,0,0,1,13.7,2.834Zm5.512-.779L17.55.395a1.331,1.331,0,0,0-1.878,0l-1.2,1.2a.333.333,0,0,0,0,.47l3.069,3.069a.333.333,0,0,0,.47,0l1.2-1.2A1.331,1.331,0,0,0,19.21,2.055Zm-6.145,9.728v3.464H2.178V4.359H10a.418.418,0,0,0,.289-.119l1.361-1.361a.408.408,0,0,0-.289-.7H1.633A1.634,1.634,0,0,0,0,3.814V15.791a1.634,1.634,0,0,0,1.633,1.633H13.61a1.634,1.634,0,0,0,1.633-1.633V10.422a.409.409,0,0,0-.7-.289l-1.361,1.361A.418.418,0,0,0,13.066,11.783Z" transform="translate(0 -0.007)" fill="rgba(0,0,0,0.49)"/>
                                                 </svg>
@@ -255,7 +253,7 @@
                                         <td class="fit">-</td>
                                         <td class="fit">@$50.000</td>
                                         <td class="edit">
-                                            <a href="#">
+                                            <a href="pasajeros-detalles.php">
                                                 <svg id="Icon_awesome-edit" data-name="Icon awesome-edit" xmlns="http://www.w3.org/2000/svg" width="19.598" height="17.417" viewBox="0 0 19.598 17.417">     
                                                     <path id="Icon_awesome-edit-2" data-name="Icon awesome-edit" d="M13.7,2.834,16.767,5.9a.333.333,0,0,1,0,.47L9.336,13.8l-3.157.35a.662.662,0,0,1-.732-.732l.35-3.157,7.431-7.431A.333.333,0,0,1,13.7,2.834Zm5.512-.779L17.55.395a1.331,1.331,0,0,0-1.878,0l-1.2,1.2a.333.333,0,0,0,0,.47l3.069,3.069a.333.333,0,0,0,.47,0l1.2-1.2A1.331,1.331,0,0,0,19.21,2.055Zm-6.145,9.728v3.464H2.178V4.359H10a.418.418,0,0,0,.289-.119l1.361-1.361a.408.408,0,0,0-.289-.7H1.633A1.634,1.634,0,0,0,0,3.814V15.791a1.634,1.634,0,0,0,1.633,1.633H13.61a1.634,1.634,0,0,0,1.633-1.633V10.422a.409.409,0,0,0-.7-.289l-1.361,1.361A.418.418,0,0,0,13.066,11.783Z" transform="translate(0 -0.007)" fill="rgba(0,0,0,0.49)"/>
                                                 </svg>
@@ -276,7 +274,7 @@
                                         <td class="fit">-</td>
                                         <td class="fit">@$50.000</td>
                                         <td class="edit">
-                                            <a href="#">
+                                            <a href="pasajeros-detalles.php">
                                                 <svg id="Icon_awesome-edit" data-name="Icon awesome-edit" xmlns="http://www.w3.org/2000/svg" width="19.598" height="17.417" viewBox="0 0 19.598 17.417">     
                                                     <path id="Icon_awesome-edit-2" data-name="Icon awesome-edit" d="M13.7,2.834,16.767,5.9a.333.333,0,0,1,0,.47L9.336,13.8l-3.157.35a.662.662,0,0,1-.732-.732l.35-3.157,7.431-7.431A.333.333,0,0,1,13.7,2.834Zm5.512-.779L17.55.395a1.331,1.331,0,0,0-1.878,0l-1.2,1.2a.333.333,0,0,0,0,.47l3.069,3.069a.333.333,0,0,0,.47,0l1.2-1.2A1.331,1.331,0,0,0,19.21,2.055Zm-6.145,9.728v3.464H2.178V4.359H10a.418.418,0,0,0,.289-.119l1.361-1.361a.408.408,0,0,0-.289-.7H1.633A1.634,1.634,0,0,0,0,3.814V15.791a1.634,1.634,0,0,0,1.633,1.633H13.61a1.634,1.634,0,0,0,1.633-1.633V10.422a.409.409,0,0,0-.7-.289l-1.361,1.361A.418.418,0,0,0,13.066,11.783Z" transform="translate(0 -0.007)" fill="rgba(0,0,0,0.49)"/>
                                                 </svg>
@@ -297,7 +295,7 @@
                                         <td class="fit">-</td>
                                         <td class="fit">@$50.000</td>
                                         <td class="edit">
-                                            <a href="#">
+                                            <a href="pasajeros-detalles.php">
                                                 <svg id="Icon_awesome-edit" data-name="Icon awesome-edit" xmlns="http://www.w3.org/2000/svg" width="19.598" height="17.417" viewBox="0 0 19.598 17.417">     
                                                     <path id="Icon_awesome-edit-2" data-name="Icon awesome-edit" d="M13.7,2.834,16.767,5.9a.333.333,0,0,1,0,.47L9.336,13.8l-3.157.35a.662.662,0,0,1-.732-.732l.35-3.157,7.431-7.431A.333.333,0,0,1,13.7,2.834Zm5.512-.779L17.55.395a1.331,1.331,0,0,0-1.878,0l-1.2,1.2a.333.333,0,0,0,0,.47l3.069,3.069a.333.333,0,0,0,.47,0l1.2-1.2A1.331,1.331,0,0,0,19.21,2.055Zm-6.145,9.728v3.464H2.178V4.359H10a.418.418,0,0,0,.289-.119l1.361-1.361a.408.408,0,0,0-.289-.7H1.633A1.634,1.634,0,0,0,0,3.814V15.791a1.634,1.634,0,0,0,1.633,1.633H13.61a1.634,1.634,0,0,0,1.633-1.633V10.422a.409.409,0,0,0-.7-.289l-1.361,1.361A.418.418,0,0,0,13.066,11.783Z" transform="translate(0 -0.007)" fill="rgba(0,0,0,0.49)"/>
                                                 </svg>
