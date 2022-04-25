@@ -173,27 +173,29 @@
                             </div>
                         </div>
                     </form>
-                    <div class="col-12 mt-5 d-flex flex-column flex-md-row align-items-center justify-content-md-start">
-                        <div class="dropdown dropdown-custom">
-                            <button class="btn btn-primary rounded-pill dropdown-toggle" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Ordenar por: <span class="ms-2">Z | A</span>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Ordenar por: Z | A</a></li>
-                            </ul>
+                    <div class="row mt-5">
+                        <div class="col-md-6 d-flex flex-column flex-md-row align-items-center justify-content-md-start">
+                            <div class="dropdown dropdown-custom">
+                                <button class="btn btn-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ordenar por: <span class="ms-2">Z | A</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Ordenar por: Z | A</a></li>
+                                </ul>
+                            </div>
+                            <p class="contador-pasajeros ms-0 ms-md-2 mt-2 mt-md-0 mb-0">Total de Pasajeros: <span class="ms-2">28</span></p>
                         </div>
-                        <p class="contador-pasajeros ms-0 ms-md-2 mt-2 mt-md-0 mb-0">Total de Pasajeros: <span class="ms-2">28</span></p>
-                    </div>
-                    <div class="col-12 mt-md-0 mt-3 d-flex justify-content-center justify-content-md-end">
-                        <button class="btn btn-outline-file rounded-pill me-2" type="button">
-                            Importar
-                            <img src="../assets/images/body/icons/icon-importar.svg" width="20px" class="ms-2">
-                        </button>
-                        <button class="btn btn-outline-file rounded-pill" type="button">
-                            Exportar
-                            <img src="../assets/images/body/icons/icon-exportar.svg" width="20px" class="ms-2">
-                        </button>
+                        <div class="col-md-6 mt-md-0 mt-3 d-flex justify-content-center justify-content-md-end">
+                            <button class="btn btn-outline-file rounded-pill me-2" type="button">
+                                Importar
+                                <img src="../assets/images/body/icons/icon-importar.svg" width="20px" class="ms-2">
+                            </button>
+                            <button class="btn btn-outline-file rounded-pill" type="button">
+                                Exportar
+                                <img src="../assets/images/body/icons/icon-exportar.svg" width="20px" class="ms-2">
+                            </button>
+                        </div>
                     </div>
 
                     <div class="col position-relative">
